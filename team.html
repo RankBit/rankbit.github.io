@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>Rank Bit - Team</title>
+    <meta charset="UTF-8">
+    <link rel="icon" href="img/logo.png" sizes="16x16">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/afa37a2548.js" crossorigin="anonymous"></script>
+    <style>
+        body {font-family: "Raleway", sans-serif;}
+        body, html {
+        height: 100%;
+        font-size: large;}
+        a {
+        text-decoration: none;
+        position: relative;
+        }
+        a:after {    
+        background: none repeat scroll 0 0 transparent;
+        bottom: 0;
+        content: "";
+        display: block;
+        height: 3px;
+        left: 50%;
+        position: absolute;
+        background: #000;
+        transition: width 0.5s ease 0s, left 0.5s ease 0s;
+        width: 0;
+        }
+        a:hover:after { 
+        width: 80%; 
+        left: 10%; 
+        }
+    </style>
+    <body>
+
+		<!-- Header -->
+		<div id="#team"></div>
+        <div class="w3-display-container w3-animate-opacity w3-text-black">
+            <div class="w3-top w3-white">
+                <div style="padding: 0 2% 0 2%;" >
+                    <div class="w3-bar">
+                        <a href="index.html" class="w3-bar-item w3-margin w3-hide-small">Home</a>
+                        <a href="index.html" class="w3-bar-item w3-margin w3-hide-medium w3-hide-large"><i class="fas fa-home"></i></a>
+                        <a href="index.html#about" class="w3-bar-item w3-margin w3-hide-small">About Us</a>
+                        <a href="#team" class="w3-bar-item w3-margin w3-hide-small">Our Team</a>
+                        <i class="fas fa-desktop w3-display-topmiddle w3-hide-medium w3-hide-small" style="padding-top: 2%;"></i>
+                        <a href="index.html#events" class="w3-bar-item w3-margin w3-right w3-hide-medium w3-hide-small">Upcoming Events</a>
+                        <a href="news.html" class="w3-bar-item w3-margin w3-right w3-hide-medium w3-hide-small">News</a>
+                        <a href="index.html#join" class="w3-bar-item w3-margin w3-right w3-hide-medium w3-hide-small">Join Us</a>
+                        <a href="javascript:void(0)" class="w3-bar-item w3-margin w3-button w3-right w3-hide-large" onclick="openNav()">&#9776;</a>
+                    </div>
+                </div>
+            </div>
+            
+        
+            <!-- Hidden Sidebar -->
+            <div class="w3-display-topright w3-sidebar w3-black w3-animate-right w3-xlarge" style="display:none; padding-top:60px; right:0;" id="mySidebar">
+                <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxlarge w3-display-topright" style="padding:0 12px;">
+                <i class="fa fa-remove w3-xlarge"></i>
+                </a>
+                <div class="w3-bar-block w3-center">
+                    <a href="index.html#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black w3-hide-medium" onclick="closeNav()">About Us</a>
+                    <a href="#team" class="w3-bar-item w3-button w3-text-grey w3-hover-black w3-hide-medium" onclick="closeNav()">Our Team</a>
+                    <a href="index.html#join" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Join Us</a>
+                    <a href="news.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">News</a>
+                    <a href="index.html#events" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Upcoming Events</a>
+                </div>
+            </div>
+        </div>
+		
+
+        <!-- Team Section -->
+        <div class="w3-container" style="padding:75px 16px" id="team">
+          <h3 class="w3-center">THE TEAM</h3>
+          <p class="w3-center w3-large">The ones who run this group</p>
+
+
+          <!--Row-->
+          <div class="w3-row-padding w3-grayscale" style="margin-top:48px">
+            <div class="w3-col l3 m6 w3-margin-bottom">
+              <div class="w3-card">
+                <img src="https://via.placeholder.com/500x333.png" alt="John" style="width:100%">
+                <div class="w3-container">
+                  <h3>Shobha Tyagi</h3>
+                  <p class="w3-opacity">Boss Woman</p>
+                  <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                  <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+                </div>
+              </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+              <div class="w3-card">
+                <img src="https://via.placeholder.com/500x333.png" alt="Jane" style="width:100%">
+                <div class="w3-container">
+                  <h3>Priyank Jain</h3>
+                  <p class="w3-opacity">Designer</p>
+                  <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                  <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+                </div>
+              </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+              <div class="w3-card">
+                <img src="https://via.placeholder.com/500x333.png" alt="Mike" style="width:100%">
+                <div class="w3-container">
+                  <h3>Deepan Tripathi</h3>
+                  <p class="w3-opacity">Web Designer</p>
+                  <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                  <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+                </div>
+              </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+              <div class="w3-card">
+                <img src="https://via.placeholder.com/500x333.png" alt="Dan" style="width:100%">
+                <div class="w3-container">
+                  <h3>Love Kaushik</h3>
+                  <p class="w3-opacity">Designer</p>
+                  <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                  <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!--Row-->
+          <div class="w3-row-padding w3-grayscale" style="margin-top:32px">
+            <div class="w3-col l3 m6 w3-margin-bottom">
+              <div class="w3-card">
+                <img src="https://via.placeholder.com/500x333.png" alt="John" style="width:100%">
+                <div class="w3-container">
+                  <h3>Nikhil Soni</h3>
+                  <p class="w3-opacity">CEO & Founder</p>
+                  <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                  <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+                </div>
+              </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+              <div class="w3-card">
+                <img src="https://via.placeholder.com/500x333.png" alt="Jane" style="width:100%">
+                <div class="w3-container">
+                  <h3>Aadarsh Mani</h3>
+                  <p class="w3-opacity">Art Director</p>
+                  <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                  <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+                </div>
+              </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+              <div class="w3-card">
+                <img src="https://via.placeholder.com/500x333.png" alt="Mike" style="width:100%">
+                <div class="w3-container">
+                  <h3>Rhitik</h3>
+                  <p class="w3-opacity">Web Designer</p>
+                  <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                  <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+                </div>
+              </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+              <div class="w3-card">
+                <img src="https://via.placeholder.com/500x333.png" alt="Dan" style="width:100%">
+                <div class="w3-container">
+                  <h3>Rishabh Singhla</h3>
+                  <p class="w3-opacity">Designer</p>
+                  <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                  <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!--Row-->
+          <div class="w3-row-padding w3-grayscale" style="margin-top:32px">
+            <div class="w3-col l3 m6 w3-margin-bottom">
+              <div class="w3-card">
+                <img src="https://via.placeholder.com/500x333.png" alt="John" style="width:100%">
+                <div class="w3-container">
+                  <h3>Vishal Mangla</h3>
+                  <p class="w3-opacity">CEO & Founder</p>
+                  <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                  <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+                </div>
+              </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+              <div class="w3-card">
+                <img src="https://via.placeholder.com/500x333.png" alt="Jane" style="width:100%">
+                <div class="w3-container">
+                  <h3>Nikhil</h3>
+                  <p class="w3-opacity">Art Director</p>
+                  <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                  <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+                </div>
+              </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+              <div class="w3-card">
+                <img src="https://via.placeholder.com/500x333.png" alt="Mike" style="width:100%">
+                <div class="w3-container">
+                  <h3>Pranav Agarwal</h3>
+                  <p class="w3-opacity">Web Designer</p>
+                  <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                  <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+                </div>
+              </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+              <div class="w3-card">
+                <img src="https://via.placeholder.com/500x333.png" alt="Dan" style="width:100%">
+                <div class="w3-container">
+                  <h3>Sarthak Khaneja</h3>
+                  <p class="w3-opacity">Designer</p>
+                  <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                  <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!--Row-->
+          <div class="w3-row-padding w3-grayscale" style="margin-top:32px">
+            <div class="w3-col l3 m6 w3-margin-bottom">
+              <div class="w3-card">
+                <img src="https://via.placeholder.com/500x333.png" alt="John" style="width:100%">
+                <div class="w3-container">
+                  <h3>Sarthak Agarwal</h3>
+                  <p class="w3-opacity">CEO & Founder</p>
+                  <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                  <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+                </div>
+              </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+              <div class="w3-card">
+                <img src="https://via.placeholder.com/500x333.png" alt="Jane" style="width:100%">
+                <div class="w3-container">
+                  <h3>Nikita</h3>
+                  <p class="w3-opacity">Art Director</p>
+                  <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                  <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+                </div>
+              </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+              <div class="w3-card">
+                <img src="https://via.placeholder.com/500x333.png" alt="Mike" style="width:100%">
+                <div class="w3-container">
+                  <h3>Anurag Tiwari</h3>
+                  <p class="w3-opacity">Web Designer</p>
+                  <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                  <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+                </div>
+              </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+              <div class="w3-card">
+                <img src="https://via.placeholder.com/500x333.png" alt="Dan" style="width:100%">
+                <div class="w3-container">
+                  <h3>Sarthak Marwaha</h3>
+                  <p class="w3-opacity">Designer</p>
+                  <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                  <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+        <!-- Footer -->
+        <footer class="w3-container w3-padding-32 w3-center w3-opacity w3-light-grey w3-xlarge">
+            <div class="w3-center w3-large w3-margin-bottom">
+                <i class="fa fa-map-marker" style="width:30px"></i>Manav Rachna, Faridabad<br>
+                <i class="fa fa-phone" style="width:30px"></i> Phone: +00 000000<br>
+                <i class="fa fa-envelope" style="width:30px"> </i> Email: email@email.com<br>
+            </div>
+            <i class="fab fa-facebook-square w3-hover-opacity"></i>
+            <i class="fab fa-instagram w3-hover-opacity"></i>
+            <i class="fab fa-twitter-square w3-hover-opacity"></i>
+            <i class="fab fa-linkedin w3-hover-opacity"></i>
+            <p class="w3-medium">Powered by <a href="#" target="_blank">FOSS</a></p>
+        </footer>
+
+        <script>
+            // Open and Close Nav Bar
+            function openNav() {
+                document.getElementById("mySidebar").style.width = "60%";
+                document.getElementById("mySidebar").style.display = "block";
+            }
+
+            function closeNav() {
+                document.getElementById("mySidebar").style.display = "none";
+            }
+
+        </script>
+    </body>
+</html>
