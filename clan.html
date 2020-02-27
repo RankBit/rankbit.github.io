@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    <title>RankBit</title>
+    <title>Clan</title>
     <meta charset="UTF-8">
     <link rel="icon" href="img/logo.png" sizes="16x16">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,7 +15,7 @@
         height: 100%;
         font-size: large;}
         .bgimg {
-        background-image: url('img/bg.jpg');
+        background-image: url('img/mac.jpg');
         height: 100%;
         background-position: center;
         background-size: cover;
@@ -48,7 +48,7 @@
         -ms-transform:translate(-50%,-50%)
         }
     </style>
-    <body>
+    <body class="w3-black">
 
 		<!-- Header -->
 		<div id="home"></div>
@@ -84,15 +84,30 @@
                 </div>
             </div>
 
-            <!-- FOSS Logo -->
-            <div class="w3-display-middle w3-center">
-                <h1 class="w3-jumbo w3-text-white">
-                    <span class="w3-hide-small w3-hide-medium w3-padding w3-black w3-opacity-min"><b>RB</b></span> 
-                    <span class="w3-hide-small w3-hide-medium w3-text-black w3-opacity-min">it</span>
-                    <!-- Duplicate for small screens -->
-                    <span class="w3-xxxlarge w3-hide-large w3-padding w3-black w3-opacity-min"><b>F<i class="fas fa-circle-notch fa-sm"></i>SS</b></span>
-                </h1>
-                <h3 class="w3-hide-small">Developers and Designers</h3>
+            <!-- Main -->
+            <div class="w3-display-left w3-text-white" style="padding:48px">
+                <span class="w3-jumbo w3-hide-small">Welcome to Clan WarFAIR</span><br>
+                <span class="w3-xxlarge w3-hide-large w3-hide-medium">Welcome to Clan WarFAIR</span><br>
+                <span class="w3-large">Stop wasting valuable time that just isn't you.</span>
+                <p><button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-grey w3-padding-large w3-large w3-margin-top w3-hover-opacity ">Join The War Today!</button></p>
+            </div> 
+        </div>
+
+        <!-- Modal -->
+        <div id="id01" class="w3-modal">
+            <div class="w3-modal-content w3-card-4 w3-animate-top w3-black">
+              <header class="w3-container w3-theme-l1"> 
+                <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">×</span>
+                <h4>Oh snap! We are not prepared for this</h4>
+                <h5>Because we can't <i class="fa fa-smile-o"></i></h5>
+              </header>
+              <div class="w3-padding">
+                <p>Not Cool huh? Ok, enough teasing around..</p>
+                <p>Now Register!!! to join the fight</p>
+              </div>
+              <footer class="w3-container w3-theme-l1">
+                <p>dis is footer</p>
+              </footer>
             </div>
         </div>
 		
@@ -103,48 +118,41 @@
             <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px">
                 <h2 class="w3-wide">About Us</h2>
                 <p class="w3-opacity"><i>Want to know more?</i></p>
-                <p class="w3-justify"> We are a good company See we can do things!</p>
+                <p class="w3-justify"> We are in a war! Fight! Ask questions later.</p>
 
                
             </div>
         </div>
 
 
-        <!-- Project Section -->
+        <!-- Event Section -->
         <div id="events"></div>
-        <div class="w3-white">
+        <div class="w3-black">
             <div class="w3-container w3-content w3-padding-64" style="max-width:800px;margin-top: 46px;">
-                <h2 class="w3-wide w3-center">OUR PROJECTS</h2>
-                <p class="w3-opacity w3-center"><i>Yes! We actually do something</i></p><br>
+                <h2 class="w3-wide w3-center">DATE OF EVENTS</h2>
+                <p class="w3-opacity w3-center"><i>Remember to bring your Swords and Friends!</i></p><br>
 
-                <div class="w3-row-padding w3-padding-16" style="margin:0 -16px">
-                    <div class="w3-third w3-margin-bottom">
-                    <img src="https://www.w3schools.com/w3images/paris.jpg" alt="Paris" style="width:100%" class="w3-hover-opacity">
-                        <div class="w3-container w3-white">
-                            <p><b>MR FOSS</b></p>
-                            <!--<p class="w3-opacity">Fri 13 Feb 2020</p>-->
-                            <p>Webpage for Collage Free Open Source Software club.</p>
-                            <button class="w3-button w3-black w3-margin-bottom" onclick="window.location.href='https://mr-foss.github.io/'">Visit</button>
-                        </div>
-                    </div>
+                <ul class="w3-ul w3-border w3-white w3-text-grey">
+                    <li class="w3-padding">Clash Dance <span class="w3-tag w3-red w3-margin-left">Expired</span></li>
+                    <li class="w3-padding">Battle Boom <span class="w3-tag w3-black w3-margin-left">No Event</span></li>
+                    <li class="w3-padding">Epic Destroyer <span class="w3-badge w3-right w3-margin-right">1</span></li>
+                </ul>
 
-
+                <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
                     <div class="w3-third w3-margin-bottom">
                     <img src="https://www.w3schools.com/w3images/paris.jpg" alt="Paris" style="width:100%" class="w3-hover-opacity">
                         <div class="w3-container w3-white">
                             <p><b>Clan WarFARE</b></p>
-                            <!--<p class="w3-opacity">Fri 13 Feb 2020</p>-->
-                            <p>Best clan event this collage can't ever organize.</p>
-                            <button class="w3-button w3-black w3-margin-bottom" onclick="window.location.href='https://rankbit.github.io/clan'">Visit</button>
+                            <p class="w3-opacity">Fri 13 Feb 2020</p>
+                            <p>Best clan event this collage can ever organize.</p>
+                            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Register</button>
                         </div>
                     </div>
-
                 </div>
-
             </div>
         </div>
 
-        <!-- Ticket Modal 
+        <!-- Ticket Modal -->
         <div id="ticketModal" class="w3-modal">
             <div class="w3-modal-content w3-animate-top w3-card-4">
                 <header class="w3-container w3-black w3-center w3-padding-32"> 
@@ -164,10 +172,9 @@
             </div> 
         </div>
         
-        -->
 
 
-        <!-- Join Us Section 
+        <!-- Join Us Section -->
         <div id="join"></div>
         <div class="w3-content w3-black" style="max-width:2000px;margin-top:46px">
             <div class="w3-container w3-content w3-padding-64" style="max-width:1000px">
@@ -176,14 +183,15 @@
                 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSerNhitYB7kZfPfv3JQNwUVhbdRdlB6KOe5unu97-SBsgdrmg/viewform?embedded=true" width="100%" height="1300" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
             </div>
         </div>
-        -->
+        
+
 
         <!-- Image of location/map -->
         <img src="https://www.w3schools.com/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
 
 
         <!-- Footer -->
-        <footer class="w3-container w3-padding-32 w3-center w3-opacity w3-light-grey w3-xlarge">
+        <footer class="w3-container w3-padding-32 w3-center w3-light-grey w3-xlarge">
             <div class="w3-center w3-large w3-margin-bottom">
                 <i class="fa fa-map-marker" style="width:30px"></i>Faridabad, Haryana<br>
                 <i class="fa fa-phone" style="width:30px"></i> Phone: +00 000000<br>
